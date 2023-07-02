@@ -1,0 +1,120 @@
+.home {
+    background-image: url(./assets/images/newbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700px;
+    color: #fff;
+    flex-direction: column;
+    
+}
+
+.profpic {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+  .Aboutme {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+.Aboutme > div > p {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    height: inherit;
+    width: 950px;
+    font-family: "Merriweather", serif
+    
+}
+.Jexperience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.wexperience {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+    padding: 2rem;
+    height: auto;
+    width: 950px;
+    font-family: "Merriweather", serif
+}
+
+
+.cc-contact-information {
+    background-image: url(./assets/cotactmebg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px px;
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #5C8984;
+    padding: 50px 0 10px;
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    gap: 3rem;
+}
+
+body h4 {
+    
+    color: #4dcaca;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.copyright {
+    color: white;
+}
