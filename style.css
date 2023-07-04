@@ -3,7 +3,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +20,7 @@
 }
 
   .Aboutme {
-    height: 60vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,9 +28,11 @@
     gap: 1.5rem;
   }
 
-.Aboutme > div > p {
-    position: relative;
+.pAbout {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
@@ -38,12 +41,14 @@
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: 0.25rem;
     padding: 0.5rem;
-    height: inherit;
-    width: 950px;
-    font-family: "Merriweather", serif
+    height: auto;
+    width: 80%; 
+    font-family: "Merriweather", serif;
+    box-shadow: 1px 1px 1rem #393E46;
     
 }
 .Jexperience {
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,8 +68,9 @@
     border-radius: 0.25rem;
     padding: 2rem;
     height: auto;
-    width: 950px;
-    font-family: "Merriweather", serif
+    width: 80%;
+    font-family: "Merriweather", serif;
+    box-shadow: 1px 1px 1rem #393E46;
 }
 
 
